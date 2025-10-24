@@ -7,15 +7,15 @@ To write a program to predict the type of species of the Iris flower using the S
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1.Initialize Parameters: Set initial weights (theta) to zero.
+1. Import all the necessary libraries and load the data set.
 
-2.Compute Predictions: Calculate predictions using the sigmoid function on the weighted inputs.
+2. Split the dataset into training sets and testing sets.
 
-3.Calculate Cost: Compute the cost using the cross-entropy loss function.
+3. Train the model using the Stochastic Gradient Descent Classifier (SGD).
 
-4.Update Weights: Adjust weights by subtracting the gradient of the cost with respect to each weight.
+4. Evaluate the acuuracy.
 
-5.Repeat: Repeat steps 2–4 for a set number of iterations or until convergence is achieved.
+5. Generate the confusion matrix.
 
 ## Program:
 ```
